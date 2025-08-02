@@ -1,0 +1,8 @@
+::ng-deep .mat-mdc-dialog-surface {
+  border-radius: 5px !important;
+}
+
+.title {
+  color: white;
+  background-color: #9b2c2c;
+}

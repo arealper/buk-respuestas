@@ -1,0 +1,40 @@
+@use 'sass:map';
+@use '@angular/material' as mat;
+@use './theme-colors' as palettes;
+
+html {
+  color-scheme: light dark;
+  @include mat.theme(( color: (primary: palettes.$primary-palette, tertiary:palettes.$tertiary-palette), typography: Roboto, density: -1 ), $overrides: ( primary-container: orange ));
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mat-card {
+  border-radius: 0 !important;
+}
+
+.page-container {
+  padding: 24px;
+}
+
+.action-link {
+  font-weight: 500;
+  margin-right: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.green {
+  color: #3f5716;
+}
+
+a.red {
+  color: #9b2c2c;
+}

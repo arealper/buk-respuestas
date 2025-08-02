@@ -1,0 +1,49 @@
+.order-form-card {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title-bar {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.order-form h2 {
+  margin-top: 2rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 16px; 
+  flex-wrap: wrap; 
+}
+
+  .row > mat-form-field {
+    flex: 1;
+    min-width: 200px;
+  }
+
+mat-card {
+  max-width: 500px;
+  margin: 0 auto; /* center it horizontally */
+  width: 100%;
+}
